@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=script, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function mostraralerta() {
+            alert('Hizo click')
+        }
+        function hacerclick(){
+            document.getElementsByTagName("p")[0].onclick = mostraralerta;
+        }
+        window.onload = hacerclick;
+    </script>
+</head>
+<body>
+        <div id= "principal"> 
+        <p > Hacer click</p>
+        <p> No puede hacer click</p>
+    </div>
+</body>
+</html>
