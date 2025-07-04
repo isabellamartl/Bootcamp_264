@@ -1,5 +1,3 @@
-# Buscar en una lista de elementos numéricos los elementos menores a un valor X dado 
-# por el usuario y mostrar las posiciones donde están ubicados.
 lista = []      
 n = int(input("Ingrese la cantidad de números que desea ingresar: "))
 for i in range(n):
